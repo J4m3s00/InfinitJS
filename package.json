@@ -1,0 +1,13 @@
+{
+    "name": "testlib",
+    "description": "A aslkdj",
+    "version": "0.0.1",
+    "dependencies": {
+        "jshint": "^2.10.2",
+        "nan": "2.14.0",
+        "node-gyp": "5.0.3"
+    },
+    "scripts": {
+        "install": "node-gyp clean configure build"
+    }
+}
